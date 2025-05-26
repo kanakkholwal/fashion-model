@@ -1,0 +1,43 @@
+{
+  "garment_predictions": {},
+  "color_profile": "ColorProfile(skin_tone=<SkinToneCategory.TYPE_4: 'Olive'>, undertone=<Undertone.WARM: 'warm'>, dominant_colors=[(np.uint8(25), np.uint8(23), np.uint8(25)), (np.uint8(175), np.uint8(171), np.uint8(172)), (np.uint8(90), np.uint8(108), np.uint8(150))], undertone_confidence=0.95, skin_tone_confidence=0.8)",
+  "color_recommendations": {
+    "top_suggestions": [],
+    "color_coordination_tips": [
+      "Choose gold jewelry and accessories over silver",
+      "Opt for warm whites (cream, ivory) instead of stark white",
+      "Earth tones like terracotta, olive, and warm browns are your best friends",
+      "Stick to a maximum of 3 colors in your outfit",
+      "Use neutral bases with one pop of color",
+      "Ensure sufficient contrast between top and bottom pieces"
+    ],
+    "seasonal_adjustments": [
+      "Embrace fresh, bright colors that echo blooming flowers",
+      "Light layers allow for easy color mixing and matching",
+      "Pastel and clear colors work beautifully in natural spring light"
+    ],
+    "occasion_guidelines": {
+      "recommended": [
+        "Navy blue",
+        "Charcoal gray",
+        "Black",
+        "White",
+        "Burgundy"
+      ],
+      "use_sparingly": [
+        "Bright red",
+        "Hot pink",
+        "Neon colors"
+      ],
+      "avoid": [
+        "Fluorescent colors",
+        "Very casual patterns",
+        "Overly bright combinations"
+      ]
+    }
+  },
+  "confidence_scores": {
+    "skin_tone_confidence": 0.8,
+    "undertone_confidence": 0.95
+  }
+}
