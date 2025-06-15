@@ -9,7 +9,7 @@ import torch.nn.functional as F
 import torchvision.transforms as transforms
 
 # Import our color theory modules (assuming they're in the same package)
-from color_theory_fashion import (
+from color.theory import (
     AdvancedColorAnalyzer,
     ColorProfile,
     ColorTheoryEngine,

@@ -235,4 +235,14 @@ Input Image → Shared Feature Extractor → Task-Specific Heads:
    - Evaluation framework for personalized fashion systems
    - Open-source implementation for community use
 
-This enhanced framework provides a solid foundation for both model development and research paper preparation, with clear technical specifications and research contributions.
+## Structure
+
+| Component                          | Purpose                                                                     |
+| ---------------------------------- | --------------------------------------------------------------------------- |
+| `api.py`                           | CLIP-based multimodal **search engine** using image + text embeddings       |
+| `color_prediction.py`              | Color theory + fashion pipeline that gives **personalized recommendations** |
+| `color_theory_fashion.py`          | Pure color theory logic (skin tone, harmony, suggestions)                   |
+| `color_ml_integration_pipeline.py` | ML-enhanced color analysis with torch models (skin/undertone/harmony)       |
+| `process_dataset.py`               | JSON pre-processing for search dataset                                      |
+| `dataset.py`                       | Torch dataset for training color models                                     |
+| `test.py`, `pipline.py`            | Example/test runners                                                        |
