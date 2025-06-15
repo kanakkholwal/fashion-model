@@ -28,7 +28,7 @@ if __name__ == "__main__":
     # Example usage
     args = PredictionArgs(
         fashion_analysis=color_prediction.FashionAnalysisArg(
-            image_path="https://example.com/image.jpg",
+            image_path="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2024/SEPTEMBER/10/z6s3OL0r_9fdaef1c0e434c2d85fc54ce1db862d6.jpg",
             prediction_path="predictions.json",
             wardrobe_path="wardrobe.json",
             occasion="casual",
