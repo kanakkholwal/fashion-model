@@ -1,5 +1,5 @@
 # Enhanced ML Model Development Plan: Intelligent Fashion Analysis System
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/kanakkholwal/fashion-model)
 ## Project Overview
 Develop a comprehensive computer vision system for fashion analysis using lightweight, open-source models to extract detailed clothing and personal attributes from images, with applications in personalized styling and color theory-based recommendations.
 
