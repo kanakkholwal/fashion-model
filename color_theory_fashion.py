@@ -595,11 +595,11 @@ class AdvancedColorAnalyzer:
         fz = lab_transform(z)
 
         # Calculate LAB values
-        l = (116 * fy) - 16
-        a = 500 * (fx - fy)
-        b = 200 * (fy - fz)
+        LAB_l = (116 * fy) - 16
+        LAB_a = 500 * (fx - fy)
+        LAB_b = 200 * (fy - fz)
 
-        return (l, a, b)
+        return (LAB_l, LAB_a, LAB_b)
 
     def calculate_color_temperature(self, rgb: Tuple[int, int, int]) -> float:
         """

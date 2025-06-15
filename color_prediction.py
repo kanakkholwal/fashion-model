@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 import json
 import urllib.request
 
@@ -6,10 +7,21 @@ import numpy as np
 
 from color_ml_integration_pipeline import MLColorAnalysisPipeline
 
+@dataclass
+class FashionAnalysisArg:
+    "Fashion Color Analysis arguments"
+    image_path = str
+    prediction_path = str
+    wardrobe_path = str
+    occasion = str
+    occasion = str
+    
+    
+
 
 def load_image(image_path: str):
     if image_path.startswith('http://') or image_path.startswith('https://'):
-        resp = urllib.request.urlopen(image_path)
+        resp = urllib.request.urlopen(image_path.replace("https://","http://"))
         image_data = np.asarray(bytearray(resp.read()), dtype="uint8")
         image = cv2.imdecode(image_data, cv2.IMREAD_COLOR)
     else:
